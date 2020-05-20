@@ -18,15 +18,15 @@ varFont = tkinter.font.Font(family = 'Times New Roman' , size = 16, weight = "bo
 
 def line():
     ledpin.on()
-    time.sleep(0.5)
+    time.sleep(1)
     ledpin.off()
-    time.sleep(0.2)
+    time.sleep(0.5)
 
 def dot():
     ledpin.on()
-    time.sleep(0.2)
+    time.sleep(0.5)
     ledpin.off()
-    time.sleep(0.2)
+    time.sleep(0.5)
     
 
 def convert_taxt_To_Code():
